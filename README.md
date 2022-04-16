@@ -6,8 +6,8 @@
 
 <br>
 
-![](../todo-project/assets/Wireframe%201.png)
+![Photo 1](../todo-project/assets/Wireframe%201.png)
 
 <br>
 
-![](../todo-project/assets/Wireframe%202%20.png)
+![Photo 2](../todo-project/assets/Wireframe%202%20.png)
