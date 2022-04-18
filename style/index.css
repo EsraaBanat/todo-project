@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --white: #fff;
+    --blue: #D6EAF8;
+    --pink: #F5B7B1;
+    --orange: #FAD7A0;
+    --green: #ABEBC6;
+    --purple: #D2B4DE;
+    --black: #000;
+    --gray: #cbd0d4;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    transition: 0.2s linear;
+}
+
+html {
+    font-size: 60%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    /* width: 0.8rem; */
+}
+
+body {
+    background: var(--white);
+    color: var(--black);
+}
+
+header {
+    background-color: var(--gray);
+    display: flex;
+    padding: 1.5rem 3% 0;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header .logo {
+    width: 25%;
+    height: 35%;
+}
+
+.header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 6rem;
+    margin-right: 8%;
+}
+
+.header .sticker {
+    display: flex;
+    display: inline-block;
+    width: 35rem;
+    height: 20rem;
+    padding: 1.5rem 2.5rem 1.5rem 20rem;
+}
+
+.nav-bar {
+    padding: 2% 30%;
+    display: flex;
+}
+
+.nav-bar a {
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 1rem 4rem;
+    color: var(--black);
+    margin: 0 2rem;
+
+}
+
+.nav-bar a.about {
+    background-color: var(--orange);
+}
+
+.nav-bar a.daily-planner {
+    background-color: var(--pink);
+}
+
+.nav-bar a.calender {
+    background-color: var(--green);
+}
+
+.nav-bar a.perfermance {
+    background-color: var(--blue);
+}
+
+.nav-bar a:hover {
+    background-color: var(--white);
+    color: var(--orange);
+}
+
+main {
+    display: flex;
+    padding: 3%;
+    border: 15% solid var(--purple);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+main table,
+tr,
+th,
+td {
+    position: relative;
+    border: 20px solid var(--purple);
+    border-collapse: collapse;
+    width: 40%;
+    font-size: 2rem;
+    font-weight: 600;
+    align-content: center;
+    margin-left: 20rem;
+}
+
+main th {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+#status {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#status:hover {
+    cursor: pointer;
+}
+
+main img {
+    width: 30%;
+    height: 20%;
+}
+
+footer {
+    background-color: var(--gray);
+    padding: 1rem;
+    border: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
